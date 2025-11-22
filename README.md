@@ -26,4 +26,4 @@ Posts include fields: `name` (string), `description` (string), `age` (number, 1-
 - **Update Post** (`PATCH /api/v1/posts/update/:id`): Update existing post by ID.
 - **Delete Post** (`DELETE /api/v1/posts/delete/:id`): Remove post by ID.
 
-The API connects to MongoDB using a connection string from environment variables and runs on port 8000 (configurable via `PORT` env var).
+The API connects to MongoDB using a connection string from environment variables.
